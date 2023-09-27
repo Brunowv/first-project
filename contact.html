@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Internal Links -->
+    <link rel="stylesheet" href="./contact.css" />
+
+    <!-- Imported Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- External Links & Midi -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bayon&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+
+    <!-- Navigation -->
+    <ul class="nav-menu">
+      <li>
+        <a title="Home" href="./index.html"
+          ><i class="fa-solid fa-anchor fa-spin fa-spin-reverse fa-xl"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          title="Our Products, mostly Hats"
+          href="./our-products.html"
+          ><i class="fa-solid fa-poo fa-bounce"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          title="Testimonials of Happy Customers"
+          href="./testimonials.html"
+          ><i class="fa-solid fa-user-injured fa-beat"></i
+        ></a>
+      </li>
+      <li>
+        <a title="About Us" href="./about-us.html"
+          ><i class="fa-solid fa-fish-fins fa-bounce"></i
+        ></a>
+      </li>
+      <li>
+        <a title="Contact Us" href="./contact.html"
+          ><i class="fa-solid fa-user-pen fa-shake"></i
+        ></a>
+      </li>
+    </ul>
+
+    <h2>
+      You Can send us a hadwritten letter through conventional mail or a pidgeon
+      mail if it is cheaper, or come walking.
+    </h2>
+
+    <p class="nemopoint">you can find us at:</p>
+    <p class="nemopoint">48°52.6S 123°23.6W / 48.8767°S 123.3933°W</p>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3031991.121334751!2d-120.2023403647726!3d-45.93851670662906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1695743094159!5m2!1sen!2sde"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <p class="or">or</p>
+    <p class="or">If you know how, you can send us an email</p>
+    <!--ContactForm-->
+
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="How people reffers to you?"
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="After that, what's the second thing?"
+        />
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="What were you thinking about?"
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Send it!" />
+      </form>
+    </div>
+  </body>
+</html>
